@@ -1,0 +1,111 @@
+/* write your css here */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #333333;
+    min-width: 100% !important;
+}
+
+.z-about-us-section { 
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+}
+
+.z-about-us-header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0%;
+}
+
+.z-divider {
+    width: 60px;
+    height: 2px;
+    background-color: #3798d7;
+    margin: 10px 0 0;
+    border: none;
+    border-radius: 2px;
+    margin-left:33rem;
+    /* color: aqua; */
+}
+
+.z-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.z-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.z-col {
+    flex: 1;
+    padding: 20px;
+}
+
+.z-content-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.z-img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.z-content-column h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0 0 10px;
+}
+
+.z-content-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.z-btn {
+    background-color: #3798d7;
+    color:#ffffff;
+    border: none;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.z-btn:hover {
+    background-color: black;
+}
+
+.z-btn-learn-more {
+    align-self: flex-start;
+}
+
+.z-footer {
+    text-align: center;
+    background-color: #2d3e50;
+    color: #ffffff;
+    padding: 10px 0;
+    margin-top: 30px;
+    
+}
